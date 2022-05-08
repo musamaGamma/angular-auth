@@ -1,0 +1,5 @@
+<div class="h-screen flex justify-center items-center">
+  <h1 *ngIf="authService.user | async as user" class="animate-pulse text-7xl">
+    welcome <span class="text-blue-400 font-bold"> {{ user.displayName }}</span>
+  </h1>
+</div>

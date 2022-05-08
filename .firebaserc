@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-auth-a8c0e": {
+      "hosting": {
+        "ng-auth": [
+          "angular-auth-a8c0e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-auth-a8c0e"
+  }
+}
