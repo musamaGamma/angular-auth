@@ -2,26 +2,101 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
-## Development server
+## title
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ng-auth
 
-## Code scaffolding
+## Table of Content:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [About The App](#about-the-app)
+- [Folder Architecture](#folder-architecture)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Setup](#setup)
 
-## Build
+## about The App
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+this is a simple frontend authentication app
 
-## Running unit tests
+## folder architecture
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+.
+├── angular.json
+├── dist
+│   └── ng-auth
+│       ├── 3rdpartylicenses.txt
+│       ├── favicon.ico
+│       ├── index.html
+│       ├── main.184392a3f7ca5a7a.js
+│       ├── polyfills.5d21cf2738fdf9ef.js
+│       ├── runtime.93bf9bee28aba932.js
+│       └── styles.e3fedbea29d5c4a0.css
+├── firebase.json
+├── karma.conf.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── app
+│   │   ├── app.component.css
+│   │   ├── app.component.html
+│   │   ├── app.component.spec.ts
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   │   ├── app-routing.module.ts
+│   │   ├── components
+│   │   │   ├── home
+│   │   │   │   ├── home.component.css
+│   │   │   │   ├── home.component.html
+│   │   │   │   ├── home.component.spec.ts
+│   │   │   │   └── home.component.ts
+│   │   │   ├── login
+│   │   │   │   ├── login.component.css
+│   │   │   │   ├── login.component.html
+│   │   │   │   ├── login.component.spec.ts
+│   │   │   │   └── login.component.ts
+│   │   │   └── sign-up
+│   │   │       ├── sign-up.component.css
+│   │   │       ├── sign-up.component.html
+│   │   │       ├── sign-up.component.spec.ts
+│   │   │       └── sign-up.component.ts
+│   │   └── services
+│   │       ├── auth.service.spec.ts
+│   │       └── auth.service.ts
+│   ├── assets
+│   ├── environments
+│   │   ├── environment.prod.ts
+│   │   └── environment.ts
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── main.ts
+│   ├── polyfills.ts
+│   ├── styles.css
+│   └── test.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+└── tsconfig.spec.json
+```
 
-## Running end-to-end tests
+## screenshots
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![login page](/src/assets/login.png)
+![home page](/src/assets/welcome1.png)
 
-## Further help
+## technologies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### styling and icons
+
+- tailwindcss
+- angular material
+
+## backend
+
+firebase
+
+## setup
+
+- download or clone the repository
+- run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
